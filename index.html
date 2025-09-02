@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+</head>
+<body>
+
+  <div class="page-wrapp">
+    <div class="newsletter-card">
+      <seccion class="card-img">
+        <picture>
+          <source srcset="assets/images/illustration-sign-up-desktop.svg" media="(min-width:1000px)">
+          <source srcset="assets/images/illustration-sign-up-tablet.svg" media="(min-width:700px)">
+          <img src="assets/images/illustration-sign-up-mobile.svg" alt="Ilustration">
+        </picture>
+      </seccion>
+      <seccion class="info">
+        <div class="card-text">
+          <h1>Stay updated!</h1>
+          <p>
+            Join 60,000+ product managers receiving monthly updates on:
+          </p>
+          <ul class="checklist">
+            <li><img class="icon" src="assets/images/icon-list.svg" alt="icon-list" width="21" height="21">Product discovery and building what matters</li>
+            <li><img class="icon" src="assets/images/icon-list.svg" alt="icon-list" width="21" height="21">Measuring to ensure updates are a success</li>
+            <li><img class="icon" src="assets/images/icon-list.svg" alt="icon-list" width="21" height="21">And much more!</li>
+          </ul>
+        </div>
+        
+        <form class="card-form"> 
+          <div class="form-header">
+            <p class="form-label">Email address</p>
+            <span class="error-message">Valid Email required</span>
+          </div>
+          <input class="form-input" type="text" placeholder="email@company.com" required>
+          <button class="button" type="submit">Subscribe to monthly newsletter</button>
+        </form>
+      </seccion>
+    </div>
+    <div class="attribution">
+      
+        Challenge by <a class="attribution-link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a class="attribution-link" href="#">Veronica Holguin</a>.
+      
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
