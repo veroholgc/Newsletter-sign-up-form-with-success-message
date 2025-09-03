@@ -46,8 +46,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://github.com/your-username/newsletter-signup)  
-- Live Site URL: [Live Demo](https://your-username.github.io/newsletter-signup/)
+- Solution URL: [GitHub Repo](https://github.com/veroholgc/Newsletter-sign-up-form-with-success-message)  
+- Live Site URL: [Live Demo](https://veroholgc.github.io/Newsletter-sign-up-form-with-success-message/)
 
 ---
 
