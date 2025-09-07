@@ -42,7 +42,7 @@ Users should be able to:
 #### Mobile version
 ![](./assets/images/Movile-version.png)
 
-(Add your own screenshot here showing both mobile and desktop versions)
+
 
 ### Links
 
