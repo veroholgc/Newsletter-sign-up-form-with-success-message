@@ -69,9 +69,6 @@ What I learned
 At first, I tried using Grid to arrange the image and the text, but it caused alignment issues: the text block wouldn’t stay at the top as required by the design.  
 Switching to **Flex** with `flex-direction: row` and `align-items: stretch` solved the problem and gave me more natural control in this case.
 
-- Controlling heights with `min-height` and `height`
-`min-height: 100vh` worked well on mobile to cover the full screen.  
-For tablet and desktop, the design required smaller cards, so I overrode it with `min-height: auto` inside media queries and set a fixed `height`. This prevented unnecessary stretching.
 
 - Responsive spacing with `clamp()`
 I learned to use `clamp(min, preferred, max)` for paddings. This lets spacing grow and shrink smoothly with the viewport, avoiding jumps between breakpoints.
@@ -80,13 +77,6 @@ I learned to use `clamp(min, preferred, max)` for paddings. This lets spacing gr
   padding-block: clamp(16px, 5vw, 120px);
   padding-inline: clamp(16px, 7vw, 160px);
 }
-
-- Responsive spacing with object-fit
-
-The image needed to cover the available area without distortion. The key was:
-
-.card-img      { width: 100%; height: 100%; }
-.card-img img  { width: 100%; height: 100%; object-fit: cover; }
 
 - Checklist with aligned icons
 
